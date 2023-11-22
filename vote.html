@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Лабораторна робота №4</title>
+</head>
+<body>
+    <h3>Форма для голосування</h3>
+    
+    <div class="container">
+        <form action="result.php" method="post">
+            <label for="vote">Ваша улюблена мова програмування:</label>
+            <br>
+            <input type="radio" id="cpp" name="vote" value="cpp">
+            <label for="cpp">C++ </label>
+
+            <br>
+            <input type="radio" id="php" name="vote" value="php">
+            <label for="php">PHP</label>
+
+            <br>
+            <input type="radio" id="java" name="vote" value="java">
+            <label for="java">Java</label>
+
+            <br>
+            <input type="submit" value="Vote!">
+        </form>
+    </div>
+</body>
+</html>
